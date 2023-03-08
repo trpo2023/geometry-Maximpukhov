@@ -1,5 +1,4 @@
-geometry
-
-*.[oa]
-
-*~
+*.o
+*.a
+*geometry
+*task
