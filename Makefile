@@ -1,6 +1,4 @@
-all: alls
-alls: main.o geometry.o
-main.o: main.c
-	gcc -Wall -Werror -o main main.c
-geometry.o: geometry.c
+all: geometry
+
+geometry: geometry.c
 	gcc -Wall -Werror -o geometry geometry.c
